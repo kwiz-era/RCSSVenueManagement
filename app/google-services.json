@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "20418287932",
+    "project_id": "rcss-venue-management",
+    "storage_bucket": "rcss-venue-management.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20418287932:android:604a6b5fb78ef42614e639",
+        "android_client_info": {
+          "package_name": "com.example.rcss_venue_management"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsv1Qb2wHN4l_Fr-vr_Qi1lRKBCbvrPRY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">RCSS-Venue-Management</string>
+    <string name="manage_users">Manage Users</string>
+    <string name="manage_venues">Manage Venues</string>
 </resources>
