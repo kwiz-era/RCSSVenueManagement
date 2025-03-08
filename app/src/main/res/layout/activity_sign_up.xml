@@ -93,6 +93,7 @@
             android:inputType="textPassword"
             android:minHeight="48dp"
             android:textColorHint="#F3F6F5"
+            android:textColorLink="#FFFFFF"
             android:textStyle="bold|italic"
             tools:ignore="Autofill,HardcodedText" />
 

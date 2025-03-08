@@ -29,12 +29,12 @@
         android:layout_height="wrap_content"
         android:text="Login"
         android:textAlignment="center"
-        android:textColor="@color/design_default_color_secondary_variant"
+        android:textColor="@color/material_dynamic_primary10"
         android:textSize="34sp"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@id/imageView2"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView2"
         tools:ignore="HardcodedText" />
 
     <!-- Email Input -->
@@ -47,10 +47,11 @@
         android:hint="Email"
         android:inputType="textEmailAddress"
         android:textColor="@color/black"
-        android:textColorHint="@color/design_default_color_secondary_variant"
-        app:layout_constraintTop_toBottomOf="@id/textView2"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textColorHint="@color/white"
+        android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView2"
         app:layout_constraintWidth_percent="0.85"
         tools:ignore="Autofill,HardcodedText" />
 
@@ -60,14 +61,15 @@
         android:layout_width="0dp"
         android:layout_height="48dp"
         android:layout_marginTop="16dp"
+        android:drawableStart="@android:drawable/ic_lock_idle_lock"
         android:hint="Password"
         android:inputType="textPassword"
         android:textColor="@color/black"
-        android:textColorHint="@color/design_default_color_secondary_variant"
-        android:drawableStart="@android:drawable/ic_lock_idle_lock"
-        app:layout_constraintTop_toBottomOf="@id/editTextTextEmailAddress"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textColorHint="@color/white"
+        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextTextEmailAddress"
         app:layout_constraintWidth_percent="0.85"
         tools:ignore="Autofill,HardcodedText" />
 
@@ -77,13 +79,13 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:backgroundTint="@color/design_default_color_secondary_variant"
+        android:backgroundTint="@color/material_dynamic_primary10"
         android:text="Login"
         android:textColor="@color/white"
         android:textSize="18sp"
-        app:layout_constraintTop_toBottomOf="@id/editTextTextPassword"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextTextPassword"
         app:layout_constraintWidth_percent="0.85"
         tools:ignore="HardcodedText,DuplicateSpeakableTextCheck,TextContrastCheck" />
 

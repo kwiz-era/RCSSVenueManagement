@@ -13,6 +13,33 @@
         android:theme="@style/Theme.RCSSVenueManagement"
         tools:targetApi="31">
         <activity
+            android:name=".AdminViewVenues"
+            android:exported="false" />
+        <activity
+            android:name=".AdminEditVenue"
+            android:exported="false" />
+        <activity
+            android:name=".AdminDeleteVenue"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AdminAddVenue"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Admin"
+            android:exported="false" />
+        <activity
             android:name=".Sign_Up"
             android:exported="false" />
         <activity
